@@ -12,7 +12,7 @@ def findMax(l):
 
 def fileHandling(fileName):
     """
-    Description:
+    Description: Performs basic file operations - read and write
     """
     try:
 
@@ -48,5 +48,3 @@ if __name__ == '__main__':
         fileHandling("./testing.txt")
     except TypeError:
         raise Exception("Can't find maximum for non-numeric values")
-
-
