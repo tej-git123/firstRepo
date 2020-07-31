@@ -48,3 +48,5 @@ if __name__ == '__main__':
         fileHandling("./testing.txt")
     except TypeError:
         raise Exception("Can't find maximum for non-numeric values")
+
+
